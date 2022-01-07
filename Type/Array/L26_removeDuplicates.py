@@ -1,6 +1,7 @@
 from unittest import TestCase
 
 # 删除有序数组中的重复项 要求O(1)空间复杂度
+# 双指针
 
 
 def removeDuplicates(nums) -> int:
