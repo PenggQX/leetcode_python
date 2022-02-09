@@ -1,4 +1,6 @@
-def FindNumber(arr):
+# 选用 左下角数 或者 右上角数进行比较
+
+def FindNumber(arr, iMatch):
     if not arr:
         return -1
     iMaxCol, iMaxRow = len(arr), len(arr[0])
