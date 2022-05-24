@@ -1,5 +1,8 @@
 from typing import List
 import bisect
+import math
+
+print(math.gcd(3, 15))
 
 
 class Solution:
