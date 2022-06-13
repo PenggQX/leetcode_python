@@ -18,3 +18,10 @@ class Solution:
                 dp[i][1] = min(dp[i - 1][0], dp[i - 1][1])
 
         return min(dp[-1][0], dp[-1][1])
+
+
+if __name__ == '__main__':
+    import bisect
+    a = [1, 2, 3, 4, 5]
+    i = bisect.bisect_left(a, 2)
+    print(i)
