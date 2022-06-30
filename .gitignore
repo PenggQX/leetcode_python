@@ -1,2 +1,2 @@
 /.idea/.gitignore
-book/__pycache__/
+book/.*__pycache__/
