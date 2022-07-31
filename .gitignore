@@ -1,3 +1,5 @@
 /.idea/.gitignore
 book/*__pycache__/
 __pycache__/
+Test/
+venv/
